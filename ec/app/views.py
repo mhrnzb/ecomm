@@ -97,3 +97,7 @@ class updateAddress(View):
         else:
             messages.warning(request, "Invalid Input Data!")
         return redirect("address")
+
+
+def add_to_cart(request):
+    pass
