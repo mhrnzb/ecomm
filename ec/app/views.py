@@ -5,7 +5,7 @@ from django.db.models import Count
 from . forms import CustomerRegistrationForm , CustomerProfileForm
 from django.contrib import messages
 # Create your views here.
-
+#me13811381
 def home(request):
     return render(request , "app/home.html")
 
